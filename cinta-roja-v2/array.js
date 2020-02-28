@@ -95,3 +95,12 @@ const filtro = numeros.filter((num) => {
 })
 
 console.log(filtro);
+
+console.log("For in")
+
+var MiLista = [1,2,3,4,5];
+
+for(elemento in MiLista) {
+    const element = MiLista[elemento];
+    console.log(element);
+}
