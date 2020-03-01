@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: red;
+    position: fixed;
+    width: 100%;
+    height: 30px;
+}
+
+.main {
+    position: fixed;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+.left {
+    width: 50%;
+    background-color: green;
+    height: 100vh;
+}
+
+.right {
+    width: 50%;
+    background-image: url("img/japan.jpg");
+    background-size: cover;
+    background-position: center;
+}
