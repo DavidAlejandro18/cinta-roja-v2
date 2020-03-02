@@ -1,2 +1,4 @@
-console.log("hello world");
-console.log("hola mundo");
+window.onload = function() {
+    $("#onload").fadeOut();
+    $("body").removeClass("hidden");
+}
