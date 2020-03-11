@@ -1,3 +1,7 @@
+--save -d // --save-dev significa dependencia de desarrollo
+--save significa que sera una dependencia
+-g significa significa que se instalara en la ruta global del sistema
+
 npm install --save request
 npm install --save -D nodemon
 
