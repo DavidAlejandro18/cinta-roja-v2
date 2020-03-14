@@ -8,3 +8,5 @@ npm install --save request
 npm install --save -D nodemon
 
 npm install package
+
+npx create-react-app pokeapp
